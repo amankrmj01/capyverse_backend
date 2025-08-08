@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.piandphi
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle_kotlin
+features: [ app-name, github-workflow-ci, gradle, guice, http-client, jackson-databind, java, java-application, json-schema, json-schema-generator, json-schema-validation, junit, logback, management, micrometer, micrometer-prometheus, micronaut-aot, micronaut-build, micronaut-http-validation, microstream-cache, openapi, readme, shade, spring, spring-boot, static-resources, tomcat-server, validation, yaml, yaml-build ]

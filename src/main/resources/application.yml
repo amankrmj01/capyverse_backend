@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: capyverse_backend
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+        descriptions: true
+        step: PT1M
+    enabled: true
+  router:
+    static-resources:
+      jsonschema:
+        paths: classpath:META-INF/schemas
+        mapping: /schemas/**
+microstream:
+  cache:
+    my-cache:
+      key-type: java.lang.Integer
+      value-type: java.lang.String
