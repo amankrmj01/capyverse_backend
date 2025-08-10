@@ -13,8 +13,23 @@ micronaut:
       jsonschema:
         paths: classpath:META-INF/schemas
         mapping: /schemas/**
+  cache:
+    caffeine:
+      caches:
+        javaversion:
+          expire-after-write: 1d
 microstream:
   cache:
     my-cache:
       key-type: java.lang.Integer
       value-type: java.lang.String
+endpoints:
+  prometheus:
+    enabled: true
+    sensitive: false
+  health:
+    enabled: true
+    sensitive: false
+  info:
+    enabled: true
+    sensitive: false

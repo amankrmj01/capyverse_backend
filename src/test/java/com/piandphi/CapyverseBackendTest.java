@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import jakarta.inject.Inject;
 
 @MicronautTest
-class Capyverse_backendTest {
+class CapyverseBackendTest {
 
     @Inject
     EmbeddedApplication<?> application;
