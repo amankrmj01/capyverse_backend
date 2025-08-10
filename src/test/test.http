@@ -11,3 +11,15 @@ GET http://localhost:8080/jdkarchive/list
 
 ### GET request to example server
 GET http://localhost:8080/jdkarchive/getcache
+
+### GET request to example server
+GET http://localhost:8080/oraclejdkarchive
+
+### cache
+GET http://localhost:8080/oraclejdkarchive/getcache
+
+### get
+GET http://localhost:8080/oraclejdkarchive/install?name=Java%20SE%2024&product=msi%20installer&it=true
+
+### get
+GET http://localhost:8080/oraclejdkarchive/install?name=Java%20SE%2024&product=msi%20installer

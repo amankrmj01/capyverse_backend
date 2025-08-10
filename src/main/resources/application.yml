@@ -13,11 +13,7 @@ micronaut:
       jsonschema:
         paths: classpath:META-INF/schemas
         mapping: /schemas/**
-  cache:
-    caffeine:
-      caches:
-        javaversion:
-          expire-after-write: 1d
+
 microstream:
   cache:
     my-cache:
