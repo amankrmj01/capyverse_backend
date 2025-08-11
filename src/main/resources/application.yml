@@ -13,12 +13,21 @@ micronaut:
       jsonschema:
         paths: classpath:META-INF/schemas
         mapping: /schemas/**
+  caches:
+    java-versions:
+      enabled: true
+      type: in-memory
+      maximum-size: 1000
+      expire-after-write: 10s
+      record-stats: true
+      test-mode: true
 
-microstream:
-  cache:
-    my-cache:
-      key-type: java.lang.Integer
-      value-type: java.lang.String
+#microstream:
+#  cache:
+#    my-cache:
+#      key-type: java.lang.Integer
+#      value-type: java.lang.String
+#
 endpoints:
   prometheus:
     enabled: true
