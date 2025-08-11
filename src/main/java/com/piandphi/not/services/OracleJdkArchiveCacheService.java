@@ -1,4 +1,4 @@
-package com.piandphi.services;
+package com.piandphi.not.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.inject.Singleton;

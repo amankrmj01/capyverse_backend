@@ -3,11 +3,11 @@ GET http://localhost:8080/demo
 
 
 ### GET request to example server
-GET http://localhost:8080/jdkarchive
+GET http://localhost:8080/javaversions/versions
 
 
 ### GET request to example server
-GET http://localhost:8080/jdkarchive/list
+GET http://localhost:8080/javaversions/urls
 
 ### GET request to example server
 GET http://localhost:8080/jdkarchive/getcache

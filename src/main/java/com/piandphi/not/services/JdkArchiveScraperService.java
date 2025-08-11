@@ -1,4 +1,4 @@
-package com.piandphi.services;
+package com.piandphi.not.services;
 
 import jakarta.inject.Singleton;
 import jakarta.inject.Inject;
